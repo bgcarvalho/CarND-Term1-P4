@@ -1,9 +1,9 @@
-# Advanced lane Finding
+# Advanced Lane Finding
 
 ## Project Report
 
 This project consists of using advanced computer vision methods to find
-lane lines.
+lane lines on road images and road video.
 
 The steps are:
 
@@ -15,7 +15,7 @@ The steps are:
 - Calculate road curvature and car offset from middle of the road
 - Transform polyfit back and ovelay onto the original image
 
-These steps form a pipeline which should be applied to a video stream.
+These steps form a pipeline which should be applied also to a video stream.
 
 ### Camera calibration
 
@@ -108,11 +108,11 @@ The curvature of the polynomial is calculated in function `calc_curvature`:
 
 Consider the polynomial:
 
-f(y) = Ayˆ2 + By + c
+f(y) = Ayˆ2 + By + C
 
 The curvature is:
 
-R(y) = \frac{(1+(2Ay+B)ˆ2)ˆ1.5}{|2A|}
+R(y) = ((1+(2Ay+B)ˆ2)ˆ1.5)/|2A|
 
 ```python
 def calc_curvature(fit, y):
@@ -124,7 +124,7 @@ def calc_curvature(fit, y):
 For a road designed for 120km/h the usual minimum radius of curvature based 
 on USA AASHTO is 1000m.
 
-The position of the vehichle from the middle of the road is estimated
+The position of the vehicle from the middle of the road is estimated
 considering the lane with 3.7m (12 feet) and that the camera is mounted 
 in the center of the vehicle.
 
@@ -146,7 +146,7 @@ original image.
 
 ### Apply the pipeline to video feed
 
-The pipeline preseted here was combined in a Python Class to make it easier
+The pipeline presented here was combined in a Python Class to make it easier
 to keep data from frame to frame.
 
 Polynomial fit is mean from the las 15 frames.
