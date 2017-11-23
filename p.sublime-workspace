@@ -1,0 +1,709 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"date_",
+				"date_filter"
+			],
+			[
+				"Per",
+				"Person\tinterface"
+			],
+			[
+				"unique",
+				"unique_together"
+			],
+			[
+				"as",
+				"as_dict"
+			],
+			[
+				"Te",
+				"BondTesouroDireto"
+			],
+			[
+				"get",
+				"getchildren"
+			],
+			[
+				"cash_",
+				"cash_flow"
+			],
+			[
+				"Pe",
+				"PersonalFund"
+			],
+			[
+				"base",
+				"baseurl"
+			],
+			[
+				"bon",
+				"bonds_return"
+			],
+			[
+				"inve",
+				"investData"
+			],
+			[
+				"new",
+				"new_user"
+			],
+			[
+				"tr",
+				"transactions"
+			],
+			[
+				"date",
+				"date_filter"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"acc",
+				"account_type"
+			],
+			[
+				"acco",
+				"account_from__user__username"
+			],
+			[
+				"YEA",
+				"YEAR_FIRST"
+			],
+			[
+				"num",
+				"num_lines"
+			],
+			[
+				"file",
+				"fileprefix"
+			],
+			[
+				"COD",
+				"CODBDI"
+			],
+			[
+				"fil",
+				"fileurl"
+			],
+			[
+				"return",
+				"return_type"
+			],
+			[
+				"impor",
+				"import_csv_move"
+			],
+			[
+				"OPE",
+				"OPERATION"
+			],
+			[
+				"OPR",
+				"OPERATION_TYPE"
+			],
+			[
+				"start",
+				"start_date"
+			],
+			[
+				"port",
+				"portfolio"
+			],
+			[
+				"def",
+				"default"
+			],
+			[
+				"invest",
+				"investments"
+			],
+			[
+				"Dj",
+				"DjangoUser"
+			],
+			[
+				"jquery",
+				"jqueryui-timepicker-addon"
+			],
+			[
+				"ac",
+				"account_id"
+			],
+			[
+				"Date",
+				"DateTimeField"
+			],
+			[
+				"Dat",
+				"DateTimeField"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"arra",
+				"array_map"
+			],
+			[
+				"data",
+				"dataschema"
+			],
+			[
+				"map",
+				"mapLPad"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"me",
+				"Mega"
+			],
+			[
+				"Mega",
+				"Megasena"
+			],
+			[
+				"newQ",
+				"newQuotaValue"
+			],
+			[
+				"eve",
+				"event_data"
+			],
+			[
+				"quot",
+				"quotaValue"
+			],
+			[
+				"OPERA",
+				"OPERATION_TYPE"
+			],
+			[
+				"DATE_",
+				"DATE_MOVE"
+			],
+			[
+				"net",
+				"networth"
+			],
+			[
+				"strto",
+				"strtotime"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"rec",
+				"recursive"
+			],
+			[
+				"row",
+				"rows"
+			],
+			[
+				"time",
+				"timeelapsed"
+			],
+			[
+				"para",
+				"params"
+			],
+			[
+				"info",
+				"infotags"
+			],
+			[
+				"sav",
+				"saveAsCSV"
+			],
+			[
+				"err",
+				"error_message"
+			],
+			[
+				"be",
+				"begin"
+			],
+			[
+				"tmp",
+				"tmpcsvfile"
+			],
+			[
+				"sa",
+				"saveascsv"
+			],
+			[
+				"tm",
+				"tmppath"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"fu",
+				"fulldata"
+			],
+			[
+				"filt",
+				"filterData"
+			],
+			[
+				"getP",
+				"getParams"
+			],
+			[
+				"quer",
+				"query_port"
+			],
+			[
+				"Investm",
+				"Investments"
+			],
+			[
+				"Y",
+				"Y-m-d"
+			],
+			[
+				"bala",
+				"balanceChange"
+			],
+			[
+				"chan",
+				"change"
+			],
+			[
+				"fun",
+				"fundObj"
+			],
+			[
+				"fet",
+				"fetchLast"
+			],
+			[
+				"m",
+				"m_i"
+			],
+			[
+				"txt",
+				"txtfile"
+			],
+			[
+				"yea",
+				"year_or_file"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"db",
+				"dblink"
+			],
+			[
+				"impo",
+				"importIntoDB"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 119.0,
+		"last_filter": "install pa",
+		"selected_items":
+		[
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"anaconda: n",
+				"Anaconda: Next lint error"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 680.0
+	},
+	"console":
+	{
+		"height": 172.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P4"
+	],
+	"file_history":
+	[
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P4/pipeline.py",
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P3/model.py",
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P3/report.md",
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P3/drive.py",
+		"/Users/bgcarvalho/Documents/Personal/pos_nanodegree_SDC/CarND-Term1-P3/README.md",
+		"/Users/bgcarvalho/Documents/Personal/dev/dart/example01.dart",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Transfer-Learning-Lab/feature_extraction.py",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Term1-P2/LeNet_example2.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/numpy/core/fromnumeric.py",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/User/DashDoc.sublime-settings",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Alexnet-Feature-Extraction/traffic_sign_inference.py",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Term1-P2/new-data/new_data.md",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-LeNet-Lab/LeNet-Lab-Solution.ipynb",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Traffic-Sign-Classifier-Project/Traffic_Sign_Classifier.ipynb",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Traffic-Sign-Classifier-Project/CODEOWNERS",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Term1-P2/activate.sh",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-Traffic-Sign-Classifier-Project/README.md",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-TensorFlow-Lab/jupyter_notebook_config.py",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-TensorFlow-Lab/run_jupyter.sh",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-TensorFlow-Lab/docker_tensor_setup.sh",
+		"/Users/bgcarvalho/IDrive-Sync/pos_nanodegree_SDC/CarND-LeNet-Lab/activate.sh",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap-web-django/core/views.py",
+		"/Users/bgcarvalho/Dropbox/Personal/pos1_coursera_ML/instal_octave.sh",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap-web-django/core/models.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap-web-django/p.sublime-project",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap0/core/test_fund.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap0/core/models.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap0/core/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap0/core/templates/core/investments_stocks.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/models.py",
+		"/Users/bgcarvalho/Dropbox/Personal/pos_coursera_01_data-analysis/week4/week_4.py",
+		"/Users/bgcarvalho/IDrive-Sync/pos_coursera_data/scripts/video_example_1.py",
+		"/Users/bgcarvalho/Dropbox/Personal/pos_coursera_01_data-analysis/week4/Python program for video examples (Module 4).py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/typescript/hello.ts",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/Python PEP8 Autoformat/pep8_autoformat.sublime-settings",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/settings.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/management/commands/updatetesouro.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/.gitignore",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/webconsumertesouro.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/pandas.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/services.py",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bgcarvalho/IDrive-Sync/pos_coursera_data/scripts/run",
+		"/Users/bgcarvalho/IDrive-Sync/portable/run",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/app.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap1/docs/CC160520.txt",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap1/docs/ABMA01120160523.TXT",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/webservconsumer.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/investController.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/invest.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/investfund.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/eurocapServices.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/quick_reference.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/import_zip.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/scripts.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/services.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/template.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/eclipse_dict.txt",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/tests.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/investstatement.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/views.py",
+		"/Users/bgcarvalho/Dropbox/Personal/documents/IR/IRPF2016/exec",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/investmentfund.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/tests.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/authentication/forms.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/authentication/templates/user/user_login.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/authentication/templates/user/user_create.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap1/user/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/authentication/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/authentication/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/eurocap1/user/views.py",
+		"/Users/bgcarvalho/Library/Application Support/Sublime Text 3/Packages/User/Python.sublime-settings",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/forms.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/user/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/investstatementform.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/models.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/investclub.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/css/styles.css",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/base.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/usersettings.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/help.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/settingsController.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/user/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/services.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/import_csv.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/tests2.py",
+		"/Users/bgcarvalho/Dropbox/my-apps/php-app-1/lib/class.bovespahistorico.inc.php",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/example_file.txt",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/indexController.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/invest_data2.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/invest_data.csv",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/user/models.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/api/invest_data.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/signals.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/queries.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/static/bower_components/ngHandsontable/dist/ngHandsontable.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/walletController.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/wallet.html",
+		"/Users/bgcarvalho/Dropbox/pedido_cartao_bradesco.txt",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/PieCtrl.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/LineCtrl.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/BarCtrl.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/static/bower_components/angular-chart.js/dist/angular-chart.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/eurocap/templates/eurocap/base.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/index.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/static/assets/pace2.css",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/app1/static/assets/pace.css",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/dashboard.html",
+		"/Users/bgcarvalho/Dropbox/my-apps/php-app-1/lib/class.stockfund.inc.php",
+		"/Users/bgcarvalho/Dropbox/my-apps/php-app-1/lib/class.portfolio.inc.php",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/static/hf/js/scripts.js",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/hf/templates/hf/index2.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/eurocap/views.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/eurocap/urls.py",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/eurocap/static/eurocap/css/styles.css",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/eurocap/templates/eurocap/index.html",
+		"/Users/bgcarvalho/IDrive-Sync/my-devs/python-django/app1/invest/templates/invest/index.html"
+	],
+	"find":
+	{
+		"height": 54.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 173.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 132.0
+	},
+	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
+	"project": "p.sublime-project",
+	"replace":
+	{
+		"height": 94.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"invest/mo",
+				"invest/models.py"
+			],
+			[
+				"mode",
+				"invest/models.py"
+			],
+			[
+				"base",
+				"eurocap/templates/eurocap/base.html"
+			],
+			[
+				"pret",
+				"vendor/pChart/readme.txt"
+			],
+			[
+				"class.my",
+				"lib/class.mypdo.inc.php"
+			],
+			[
+				"clas",
+				"lib/class.bovespahistorico.inc.php"
+			],
+			[
+				"class",
+				"lib/class.bovespahistorico.inc.php"
+			],
+			[
+				"mypdo",
+				"lib/class.mypdo.inc.php"
+			],
+			[
+				"my",
+				"lib/class.mydb.inc.php"
+			],
+			[
+				"class.bo",
+				"lib/class.bovespahistorico.inc.php"
+			],
+			[
+				"_re",
+				"_require.inc.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
