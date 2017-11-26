@@ -35,9 +35,13 @@ Testing calibration: see the change in position for the white car.
 
 Transformations applied to the images were:
 
-- Sobel gradient (gradx, magnitude and direction thresholds)
-- RGB to HLS color space convertion
-- apply S-channel threshold 
+- yellow color filter
+- white color filter
+- b-channel threshold (after convertion RGB2Lab)
+- l-channel threshold (HLS color space)
+- s-channel threshold (HLS color space)
+- Sobel gradient (grad_x on l-channel, grad_x on s-channel)
+
 
 Below example with image `straight_lines2.jpg`, left to right: distorted image,
 combined threshold and warp image.
@@ -49,11 +53,11 @@ Binary and thresholds are combined using the `&` operator on numpy images inside
 
 ```python
 
-s_binary = np.zeros_like(s_channel)
-s_binary[(s_channel >= s_thresh[0]) & (s_channel <= s_thresh[1])] = 1
+l_binary = np.zeros_like(l_channel)
+l_binary[(l_channel >= l_thresh_min) & (l_channel <= l_thresh_max)] = 1
 
-combined = np.zeros_like(s_binary)
-combined[(gradx == 1) | ((mag_binary == 1) & (dir_binary == 1)) | (s_binary == 1)] = 1
+combined_color = np.zeros_like(yellow_mask)
+combined_color[(yellow_mask >= 1) | (white_mask >= 1) | (b_binary >= 1) | (l_binary >= 1)] = 1
 
 ```
 
@@ -69,7 +73,7 @@ histogram for the lower part of the image. This gives the possible position
 of the left and right lines.
 
 A for-loop runs 9 stripes searching the image from bottom to the top. The 
-search window is limited by 50 pixels on each side.
+search window is limited by 60 pixels on each side.
 The algorithm uses `numpy.nonzero` function to find x,y positions where the 
 binary image (0, 1) is nonzero. The mean of pixel positions is calculated and
 and used to set the next window.
@@ -91,7 +95,7 @@ good_right_inds = ((nonzeroy >= win_y_low) & (nonzeroy < win_y_high) &
 The algorithm takes these pixel positions and fits a second-order polynomial
 with `numpy.polyfit`.
 
-For the video feed, the polynomial is the mean of the last 15 frames.
+For the video feed, the polynomial is the mean of the last 3 frames.
 
 ```python
 left_lane_inds.append(good_left_inds)
@@ -125,7 +129,7 @@ For a road designed for 120km/h the usual minimum radius of curvature based
 on USA AASHTO is 1000m.
 
 The position of the vehicle from the middle of the road is estimated
-considering the lane with 3.7m (12 feet) and that the camera is mounted 
+considering the lane width 3.7m (12 feet) and that the camera is mounted 
 in the center of the vehicle.
 
 ```python
@@ -149,9 +153,6 @@ original image.
 The pipeline presented here was combined in a Python Class to make it easier
 to keep data from frame to frame.
 
-Polynomial fit is mean from the las 15 frames.
-Search windows are estimated from the previous best fit.
-
 Output video is [here](./project_video_overlay.mp4).
 Jupyter notebook is [here](./Notebook.ipynb).
 
@@ -168,5 +169,10 @@ confusing
 - `cv2.imread` reads images in BGR color order
 - points for perspective transform must be chosen wisely
 - jupyter interact was great help in parameter selection
+
+I had some trouble to reduce the "noise" from de shadows and other things in 
+the image (like other vehicles). 
+So far it seems that searching every frame was better than using previous fit.
+The best parameter combination was really a empirical job.
 
 
